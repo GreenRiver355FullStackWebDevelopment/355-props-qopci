@@ -1,4 +1,4 @@
-function RestaurantsContainer() {
+function RestaurantsContainer(props) {
   return (
     <div className="restaurantContainer">
     </div>
