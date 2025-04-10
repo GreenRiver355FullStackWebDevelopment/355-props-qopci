@@ -6,7 +6,7 @@ function RestaurantsContainer() {
   return (
     <div className="restaurantContainer">
       {/* Iterating through the Restaraunt data and rendering it */}
-      {restaurants.map(restaurant => <Restaurant restaurant={restaurant} />)}
+      {restaurants.map(restaurant => (<Restaurant key={restaurant.id} restaurant={restaurant} />))}
     </div>
   );
 }
